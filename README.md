@@ -11,6 +11,8 @@ This repository is a Claude Code **plugin marketplace**. It holds no mod code. E
 | [filetree](#filetree) | Kurt Buhler | A file tree pane that shows what Claude touches |
 | [i-have-adhd](#i-have-adhd) | Ayoub G. | Short, action-first replies |
 
+Pictures for skins and filetree come from their authors' repositories. The i-have-adhd picture uses the example from its README.
+
 ## Requirements
 
 - Claude Code **2.1.287 or later**. Mods do not load on older versions. Check with `claude --version`.
@@ -42,6 +44,13 @@ Restart Claude Code after you install. Mods load at startup.
 ### skins
 
 **What it is:** a mod that redraws Claude Code's transcript.
+
+<img alt="The same Claude Code turn switching skins with /skin: noir, Tokyo Night, Dracula, Catppuccin" src="https://raw.githubusercontent.com/hellosverre/claude-skins/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a/docs/demo.gif">
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hellosverre/claude-skins/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a/docs/previews/hero-light.svg">
+  <img alt="A Claude Code turn with the noir skin: tool rows with icons, an edit as a diff card, and a table card" src="https://raw.githubusercontent.com/hellosverre/claude-skins/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a/docs/previews/hero-dark.svg">
+</picture>
 
 **What it does:**
 - Tool calls get an icon, a spinner while they run, lines changed and time taken.
@@ -75,6 +84,10 @@ Source: [johnnyvizz/claude-kit](https://github.com/johnnyvizz/claude-kit/tree/ma
 
 **What it is:** a mod that adds an IDE-style file tree pane.
 
+<img alt="filetree shimmering the file Claude is editing" src="https://raw.githubusercontent.com/data-goblin/claude-code-filetree/da1da65724c54541f4a0ec5ddd26641b1a0d672a/media/filetree-shimmer.gif" width="800">
+
+<img alt="A committed file shimmers green and the footer shows the commit" src="https://raw.githubusercontent.com/data-goblin/claude-code-filetree/da1da65724c54541f4a0ec5ddd26641b1a0d672a/media/filetree-git.gif" width="800">
+
 **What it does:**
 - Shows the working folder as a tree. `/filetree <path>` pins another folder.
 - Shows git status per file and folder, and exact lines changed (`+N -N`).
@@ -89,6 +102,8 @@ Source: [data-goblin/claude-code-filetree](https://github.com/data-goblin/claude
 ### i-have-adhd
 
 **What it is:** a skill plugin, not a strict mod. It changes how Claude writes, not how Claude Code looks.
+
+<img alt="The same coding answer before and after i-have-adhd: a long rambling paragraph, then a short reply with one command, three numbered steps and a next step" src="docs/i-have-adhd.png" width="800">
 
 **What it does:**
 - The next action comes first.
