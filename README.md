@@ -11,7 +11,7 @@ This repository is a Claude Code **plugin marketplace**. It holds no mod code. E
 | [filetree](#filetree) | Kurt Buhler | A file tree pane that shows what Claude touches |
 | [i-have-adhd](#i-have-adhd) | Ayoub G. | Short, action-first replies |
 
-Pictures for skins and filetree come from their authors' repositories. The i-have-adhd picture uses the example from its README.
+Pictures for skins and filetree come from their authors' repositories. The i-have-adhd picture uses the example from its README. The savvy-progress picture is drawn by that mod's own SVG code with demo data.
 
 ## Requirements
 
@@ -68,6 +68,8 @@ Source: [hellosverre/claude-skins](https://github.com/hellosverre/claude-skins) 
 ### savvy-progress
 
 **What it is:** a mod that shows progress and subagents.
+
+<img alt="savvy-progress: a progress bar above the prompt reading Tasks 2/4, and the agents panel with one running, two finished and one planned subagent" src="docs/savvy-progress.png" width="800">
 
 **What it does:**
 - A progress bar above the prompt: the task title, the phase, and accepted tasks out of planned.
