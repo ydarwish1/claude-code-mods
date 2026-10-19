@@ -1,0 +1,64 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-code-mods",
+  "description": "The Claude Code mods Yusif Darwish runs every day, in one marketplace. Each entry installs from its original author's repository, pinned to a tested commit.",
+  "owner": {
+    "name": "Yusif Darwish",
+    "url": "https://github.com/ydarwish1"
+  },
+  "plugins": [
+    {
+      "name": "skins",
+      "description": "Redraws the transcript: tool calls with icons and timings, edits as diff cards, tables and code as cards, a phase spinner, and context and plan-limit rings above the prompt. /skin swaps between seven skins live.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hellosverre/claude-skins.git",
+        "sha": "342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a"
+      },
+      "author": { "name": "hellosverre", "url": "https://github.com/hellosverre" },
+      "homepage": "https://github.com/hellosverre/claude-skins",
+      "license": "MIT",
+      "category": "mod"
+    },
+    {
+      "name": "savvy-progress",
+      "description": "A progress bar above the prompt and a live agents panel (/agents-info): running, finished and planned subagents with model, task progress, context, estimated cost and time.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/johnnyvizz/claude-kit.git",
+        "path": "plugins/savvy-progress",
+        "sha": "272a877f39b6971690e087b16a7cc3951b811e39"
+      },
+      "author": { "name": "johnnyvizz", "url": "https://github.com/johnnyvizz" },
+      "homepage": "https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress",
+      "license": "MIT",
+      "category": "mod"
+    },
+    {
+      "name": "filetree",
+      "description": "An IDE-style file tree pane: git status and lines changed per file, and a shimmer on the files Claude reads (purple), writes (orange) and commits (green).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/data-goblin/claude-code-filetree.git",
+        "sha": "da1da65724c54541f4a0ec5ddd26641b1a0d672a"
+      },
+      "author": { "name": "Kurt Buhler" },
+      "homepage": "https://github.com/data-goblin/claude-code-filetree",
+      "license": "MIT",
+      "category": "mod"
+    },
+    {
+      "name": "i-have-adhd",
+      "description": "Shapes Claude's replies for an ADHD reader: next action first, numbered steps, no tangents, no preamble or closers. Type /i-have-adhd to turn it on.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ayghri/i-have-adhd.git",
+        "sha": "16a42a01f7783e29db8557dfc46226baf8015618"
+      },
+      "author": { "name": "Ayoub G.", "url": "https://github.com/ayghri" },
+      "homepage": "https://github.com/ayghri/i-have-adhd",
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}
